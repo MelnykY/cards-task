@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "deploy": "^1.0.3",
+    "modern-normalize": "^1.1.0",
+    "styled-components": "^5.3.9"
+  }
+}
