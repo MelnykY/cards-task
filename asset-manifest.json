@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/cards-task/static/css/main.073c9b0a.css",
-    "main.js": "/cards-task/static/js/main.09ebfaf4.js",
+    "main.css": "/cards-task/static/css/main.17654e45.css",
+    "main.js": "/cards-task/static/js/main.96e9c99d.js",
     "static/js/787.28cb0dcd.chunk.js": "/cards-task/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/cards-task/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cards-task/index.html",
-    "main.073c9b0a.css.map": "/cards-task/static/css/main.073c9b0a.css.map",
-    "main.09ebfaf4.js.map": "/cards-task/static/js/main.09ebfaf4.js.map",
+    "main.17654e45.css.map": "/cards-task/static/css/main.17654e45.css.map",
+    "main.96e9c99d.js.map": "/cards-task/static/js/main.96e9c99d.js.map",
     "787.28cb0dcd.chunk.js.map": "/cards-task/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.09ebfaf4.js"
+    "static/css/main.17654e45.css",
+    "static/js/main.96e9c99d.js"
   ]
 }
