@@ -21,6 +21,10 @@ export const Container = styled.div`
   justify-content: space-between;
 `;
 
+export const Description = styled.div`
+  text-align: center;
+`;
+
 export const Tweets = styled.p`
   font-weight: 500;
   font-size: 20px;
@@ -75,9 +79,10 @@ export const CardBtnFollow = styled.button`
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   border: currentColor;
-
+  background-color: #ebd8ff;
   &:hover {
     cursor: pointer;
     transform: scale(1.05);
   }
 `;
+

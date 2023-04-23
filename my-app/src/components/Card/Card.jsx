@@ -5,6 +5,7 @@ import {
   Container,
   Tweets,
   Followers,
+  Description,
   CardBtnFollowing,
   CardBtnFollow,
 } from "./Card.styled";
@@ -36,17 +37,19 @@ const Card = (users) => {
   return (
     <Container>
       <Avatar img={avatar} alt={user} />
-      <Tweets>{tweets} TWEETS</Tweets>
-      <Followers>{numbFollowers.toLocaleString("en-US")} FOLLOWERS</Followers>
-      {isFollower ? (
-        <CardBtnFollowing type="button" onClick={onFollowing}>
-          Following
-        </CardBtnFollowing>
-      ) : (
-        <CardBtnFollow type="button" onClick={onFollow}>
-          Follow
-        </CardBtnFollow>
-      )}
+      <Description>
+        <Tweets>{tweets} TWEETS</Tweets>
+        <Followers>{numbFollowers.toLocaleString("en-US")} FOLLOWERS</Followers>
+        {isFollower ? (
+          <CardBtnFollowing type="button" onClick={onFollowing}>
+            Following
+          </CardBtnFollowing>
+        ) : (
+          <CardBtnFollow type="button" onClick={onFollow}>
+            Follow
+          </CardBtnFollow>
+        )}
+      </Description>
     </Container>
   );
 };

@@ -1,9 +1,11 @@
-import { Container, Image } from "./Avatar.styled";
+import { Container, AvatarContainer, Image } from "./Avatar.styled";
 
-const Avatar = ({user, avatar}) => {
+const Avatar = ({ user, avatar }) => {
   return (
     <Container>
-      <Image src={avatar} alt={user} />
+      <AvatarContainer>
+        <Image src={avatar} alt={user} />
+      </AvatarContainer>
     </Container>
   );
 };
